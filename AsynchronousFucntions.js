@@ -12,8 +12,6 @@ function fetchDataWithCallback(callback) {
   });
 
 
-  
-
   // Asynchronous function using Promises
 function fetchDataWithPromise() {
     return new Promise((resolve, reject) => {
@@ -27,6 +25,7 @@ function fetchDataWithPromise() {
       }, 2000); // Simulating a delay of 2 seconds
     });
   }
+
   
   // Using the asynchronous function with Promises
   fetchDataWithPromise()
@@ -38,11 +37,6 @@ function fetchDataWithPromise() {
     });
 
 
-
-
-
-
-
     // Asynchronous function using async/await
 async function fetchDataWithAsyncAwait() {
     return new Promise((resolve) => {
@@ -51,6 +45,7 @@ async function fetchDataWithAsyncAwait() {
       }, 2000); // Simulating a delay of 2 seconds
     });
   }
+  
   
   // Using the asynchronous function with async/await
   async function fetchDataAndPrint() {

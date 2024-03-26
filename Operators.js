@@ -19,7 +19,6 @@ function division (num1, num2){
 }
 
 
-
 // console.log("Addition:", addition);   
 // console.log("Subtraction:", subtraction); 
 // console.log("Multiplication:", multiplication); 
